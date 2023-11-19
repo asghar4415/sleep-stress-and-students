@@ -711,7 +711,7 @@ body.section-show .transition-mask:before {
 .funfacts-block {
   padding-top: 60px;
   padding-bottom: 20px;
-  background-image: url(../img/bg-funfacts.jpg);
+  background-image: url(../img/bg-about.svg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -768,7 +768,7 @@ body.section-show .transition-mask:before {
   padding: 100px 0;
 }
 .testimonials-block .section-header {
-  margin-bottom: 45px;
+  margin-bottom: 20px;
 }
 .testimonials-slider {
   position: relative;
@@ -785,7 +785,7 @@ body.section-show .transition-mask:before {
   font-style: italic;
 }
 .testimonial > .author {
-  margin-top: 45px;
+  margin-top: 20px;
 }
 .testimonial > .author > h4 {
   margin: 0;
