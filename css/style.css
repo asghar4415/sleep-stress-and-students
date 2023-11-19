@@ -2096,21 +2096,6 @@ body .symp-btn {
 	padding-bottom: 50px;
 	background: #000;	
   }
-  /* body.section-show .transition-mask{
-		position:absolute;
-		top:140px;
-		height:260px;
-		width:260px;
-		left:0;
-		right:0;
-		margin:auto;
-		z-index:22;
-		transform:rotate(45deg);
-		overflow:hidden;
-		-webkit-animation: fill2 .8s .4s both ease;
-		-moz-animation: fill2 .8s .4s both ease;
-		animation: fill2 .8s .4s both ease;
-	} */
   body.section-show .transition-mask {
     /* position:absolute; */
     top: 0px;
