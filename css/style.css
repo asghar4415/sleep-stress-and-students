@@ -350,9 +350,9 @@ body.section-show .section.active {
 =======================================================================*/
 body.section-show .transition-mask {
   position: absolute;
-  top: 220px;
-  height: 300px;
-  width: 300px;
+  top: 272px;
+  height: 250px;
+  width: 250px;
   left: 0;
   right: 0;
   margin: auto;
