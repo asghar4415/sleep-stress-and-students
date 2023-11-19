@@ -412,10 +412,7 @@ body.section-show .transition-mask:before {
     bottom: auto;
   }
 }
-b
-{
-  border: 1px solid red;
-}
+
 @media screen and (max-width: 786px) {
 }
 
@@ -1835,13 +1832,11 @@ body .symp-btn {
   }
   .front-section {
     padding-top: 0;
-    /* overflow: visible; */
-    overflow: hidden;
+    overflow: visible;
     background: black;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding-bottom: 100px;
-
   }
   body.section-show .transition-mask {
     position: absolute;
@@ -2032,11 +2027,10 @@ body .symp-btn {
 @media (max-width: 768px) {
   .front-section {
     padding-top: 0;
-    /* overflow: visible; */
-    overflow: hidden;
+    overflow: visible;
     background: black;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding-bottom: 100px;
   }
   .front-person-links {
@@ -2160,11 +2154,10 @@ body .symp-btn {
 @media (max-width: 500px) {
 	.front-section {
 	  padding-top: 0;
-	  /* overflow: visible; */
-    overflow: hidden;
+	  overflow: visible;
 	  background: black;
 	  width: 100%;
-	  height: 100vh;
+	  height: 100%;
 	  padding-bottom: 100px;
 	}
 	.front-person-links {
@@ -2201,60 +2194,16 @@ body .symp-btn {
 		font-weight: 500;
 		color: #fff;
 	  }
-    .front-person-links
-    {
-      width: 100%;
-      height: auto;
-      display: flex!important;
-      flex-direction: column !important; 
-      align-items: center !important;
-      justify-content: center !important;
-      margin:50px 0px 0px 0px;
-      padding: 0;
-      top: 0;
-      left: 0;
-      right: 0;
-
-    }
-    .front-person-links > ul
-    {
-      /* width: 80%; */
-      display: flex!important;
-      flex-direction: column !important;
-      align-items: center !important;
-      justify-content: center !important;
-      width: 100%;
-      height: auto;
-      top: 0;
-      left: 0;
-      right: 0;
-      margin: 0;
-      padding: 0;
-
-    }
-
 	  .front-person-links > ul > li > a {
 		text-align: center;
 		padding: 10px 48px;
-		display: flex;
-    justify-self: center;
-    align-self: center;
-    text-align: center;
+		display: block;
 		font-size: 18px;
 		letter-spacing: 2px;
 		text-transform: uppercase;
-    width: 100% !important;
-    height: 50px!important;
-    top: 0;
-    left: 0;
-    right: 0;
 	  }
- 
 	.front-person-links .t1 {
-
-    /* text-align: center; */
-
-	  /* left: 5px; */
+	  left: 5px;
 	  text-transform: uppercase;
 	  font-weight: 500;
 	  bottom: 0;
@@ -2270,14 +2219,9 @@ body .symp-btn {
 	  -ms-transform-origin: 0% 0%;
 	  -o-transform-origin: 0% 0%;
 	  transform-origin: 0% 0%;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    left: 0;
-    right: 0;
 	}
 	.front-person-links .t2 {
-	  /* top: 5px; */
+	  top: 5px;
 	  left: 0;
 	  text-transform: uppercase;
 	  font-weight: 500;
@@ -2286,14 +2230,8 @@ body .symp-btn {
 	  -ms-transform: translateY(0%);
 	  -o-transform: translateY(0%);
 	  transform: translateY(0%);
-	  /* margin-left: -170px; */
+	  margin-left: -170px;
 	  /* padding-top: 200px; */
-    padding: 0;
-    margin: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-
 	}
 	.front-person-links .t3 {
 	  left: 0;
@@ -2304,15 +2242,6 @@ body .symp-btn {
 	  -ms-transform: translateY(0%) rotate(0deg);
 	  -o-transform: translateY(0%) rotate(0deg);
 	  transform: translateY(0%) rotate(0deg);
-	  /* margin-bottom: -30px; */
-	  padding-bottom: 60px;
-	  /* margin-left: -35px; */
-    padding: 0;
-    margin: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-
     padding-bottom: 40px;
     margin-left: -7vh;
 	}
