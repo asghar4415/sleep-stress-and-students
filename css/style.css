@@ -1,10 +1,4 @@
-/*=======================================================================
-	
-	Item Name 		|		Symp - Responsive One Page VCard/Resume Template
-	
-	Author Name		|		Noman Ali Samejo
-	
--------------------------------------------------------------------------
+/*
 	CSS Structure
 -------------------------------------------------------------------------
 	
@@ -456,24 +450,7 @@ body.section-show .transition-mask:before{
 	overflow: hidden;
 	/* margin-top; */
 }
-.front-heading{
-	text-align:center;
-	margin-top:70px;
-}
-.front-heading > h2{
-	font-size:55px;
-	font-weight:lighter;
-	letter-spacing:3px;
-	position:relative;
-	line-height:1em;
-	/* display:inline-block; */
-	/* *display:inline; */
-	/* *zoom:1; */
-	z-index:10;
-	color:#FFF;
-	/* font-family: 'Playfair Display', serif; */
-	/* font-style:italic; */
-}
+
 
 .front-person-img{
 	width:250px;
@@ -513,6 +490,7 @@ body.section-show .transition-mask:before{
 .front-heading
 {
 	margin-top: 0px;
+	text-align: center;
 }
 .front-heading h1
 {
@@ -527,20 +505,21 @@ body.section-show .transition-mask:before{
 	font-weight: 500;
 	color: #fff;
 }
-.front-person-links{
+.front-person-links {
 	position:relative;
 	z-index:10;
 	height:300px;
 	width:300px;
-	margin:auto;
-	margin-top:-250px;
+	/* margin:auto; */
+	margin-top: -350px;
+	margin-left: 100px;
 	-webkit-transform:rotate(45deg);
 	-moz-transform:rotate(45deg);
 	-ms-transform:rotate(45deg);
 	-o-transform:rotate(45deg);
 	transform:rotate(45deg);
 }
-.front-person-links > span{
+.front-person-links > ul {
 	position:absolute;
 	z-index:5;
 	display:block;
@@ -550,11 +529,14 @@ body.section-show .transition-mask:before{
 	font-size:34px;
 	line-height:1em;
 }
-.front-person-links > .t1{
+.front-person-links .t1{
 	left:5px;
 	text-transform: uppercase;
 	font-weight: 500;
 	bottom:0;
+	padding-bottom:50px;
+	padding-left: 130px;
+	margin-left: 75px;
 	-webkit-transform:rotate(-90deg) translateY(-100%);
 	-moz-transform:rotate(-90deg) translateY(-100%);
 	-ms-transform:rotate(-90deg) translateY(-100%);
@@ -567,7 +549,7 @@ body.section-show .transition-mask:before{
 	transform-origin:0% 0%;
 	
 }
-.front-person-links > .t2{
+.front-person-links .t2{
 	top:5px;
 	left:0;
 	text-transform: uppercase;
@@ -577,8 +559,11 @@ body.section-show .transition-mask:before{
 	-ms-transform:translateY(-100%);
 	-o-transform:translateY(-100%);
 	transform:translateY(-100%);
+	margin-top: -400px;
+	padding-left: 95px;
+
 }
-.front-person-links > .t3{
+.front-person-links .t3{
 	left:0;
 	bottom:35px;
 	text-transform: uppercase;
@@ -588,69 +573,11 @@ body.section-show .transition-mask:before{
 	-ms-transform:translateY(100%) rotate(180deg);
 	-o-transform:translateY(100%) rotate(180deg);
 	transform:translateY(100%) rotate(180deg);
+	margin-right: 90px;
+	margin-top:130px;
+	
 }
-.front-person-links a{
-	cursor:pointer;
-	-webkit-transition:all .3s ease;
-	-moz-transition:all .3s ease;
-	transition:all .3s ease;
-	position:relative;
-	color:#ffffff;
-	font-size: 25px;
-	font-weight: 500;
-	text-decoration: none;
-}
-.front-person-links a:hover{
-	color:rgb(193, 250, 250);
-	text-decoration: none;
-
-}
-.front-person-links  a:before{
-	content: ' ';
-	height:6px;
-	width:15px;
-	background:#CCC;
-	display:inline-block;
-	*display:inline;
-	*zoom:1;
-	vertical-align:middle;
-	margin-right:15px;
-	font-size:0;
-	-webkit-transition:all .3s ease;
-	-moz-transition:all .3s ease;
-	transition:all .3s ease;
-	display:none;
-
-}
-.front-person-links a:after{
-	margin-left:15px;
-	margin-right:0;
-	display:none;
-	text-decoration: none;
-
-}
-
-.front-person-links  a:hover:after,
-.front-person-links a:hover:before{
-	width:25px;
-	background:#999;
-} 
-
-/* .front-person-links{
-	margin:auto;
-	width:300px;
-	height:300px;
-	margin-top:-295px;
-	z-index:25;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
-	position:relative;
-} */
-
-/* .front-person-links > ul > li{
+.front-person-links > ul > li{
 	display:block;
 }
 .front-person-links > ul{
@@ -674,7 +601,7 @@ body.section-show .transition-mask:before{
 .front-person-links > ul > li > a{
 	font-weight:bold;
 	display:block;
-	font-size:14px;
+	font-size:25px;
 	padding:15px 0;
 	cursor:pointer;
 	-webkit-transition:all .3s ease;
@@ -682,10 +609,9 @@ body.section-show .transition-mask:before{
 	transition:all .3s ease;
 	position:relative;
 	color:#999;
-	text-align:left;
 	text-transform:uppercase;
-	letter-spacing:3px;
 	text-decoration:none;
+	letter-spacing: 1px;
 	line-height:1em;
 }
 .front-person-links > ul > li > a:before,
@@ -717,7 +643,9 @@ body.section-show .transition-mask:before{
 .front-person-links > ul > li > a:hover:before{
 	width:25px;
 	background:#999;
-} */
+}
+
+
 
 
 /*About Section*/
@@ -1894,9 +1822,6 @@ body .symp-btn{
 		animation: fill2 .8s .4s both ease;
 	}
 
-	.front-heading > h2{
-		font-size:50px;
-	}
 	.front-person-img{
 		height:360px;
 		width:360px;
@@ -1908,6 +1833,27 @@ body .symp-btn{
 		-o-transform:rotate(-45deg) translateY(45px);
 		transform:rotate(-45deg) translateY(45px);
 	}
+	.container
+	{
+		margin-top: -20px;
+	}
+.front-heading
+{
+	text-align: center;
+}
+.front-heading h1
+{
+	font-size: 45px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.front-heading h3
+{
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
+}
 	.front-person-links{
 		-webkit-transform:rotate(0deg);
 		-moz-transform:rotate(0deg);
